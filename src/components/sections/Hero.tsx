@@ -19,7 +19,7 @@ export default function Hero() {
         {/* TEXTO */}
         <div>
           <span className="text-xs sm:text-sm bg-white/10 px-4 py-1 rounded-full backdrop-blur-md border border-white/10">
-            ✨ Más de 15 años transformando empresas en México
+            ✨ Más de 17 años transformando empresas en México
           </span>
 
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mt-6 leading-tight">

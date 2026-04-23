@@ -62,7 +62,7 @@ className="
   h-20
   object-contain
   opacity-60
-  transition-all duration-500
+  transition-all duration-300
   group-hover:opacity-100
   filter brightness-0 invert
   group-hover:drop-shadow-[0_0_10px_rgba(34,211,238,0.6)]
