@@ -29,15 +29,18 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-16 py-4">
+      <div className="max-w-7xl mx-auto px-6 md:px-16 flex items-center justify-between">
 
-        {/* LOGO */}
-        <div
-          className="h-10 brightness-0 invert cursor-pointer"
-          onClick={() => goTo("inicio")}
-        >
-          <img src="/logo.svg" className="h-13" />
-        </div>
+{/* LOGO */}
+<div className="flex items-center gap-3 group cursor-pointer ">
+  
+  <img
+    src="/logo.svg"
+    alt="I&S Cómputo"
+    className="h-12 md:h-14 w-auto object-contain transition-all duration-300 hover:scale-105 group-hover:drop-shadow-[0_0_15px_rgba(34,211,238,0.8)]"
+  />
+
+</div>
 
         {/* MENU DESKTOP */}
         <nav className="hidden md:flex gap-8 text-sm text-gray-300">
