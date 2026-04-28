@@ -52,14 +52,14 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <button
               onClick={() => goTo("productos")}
-              className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-semibold shadow-lg hover:scale-105 transition-all duration-300"
+              className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-semibold shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
               Ver catálogo →
             </button>
 
             <button
               onClick={() => goTo("contacto")}
-              className="px-6 py-3 rounded-xl border border-cyan-400/30 text-white hover:bg-cyan-400/10 transition-all duration-300"
+              className="px-6 py-3 rounded-xl border border-cyan-400/30 text-white hover:-translate-y-1 transition-all duration-300"
             >
               Hablar con un experto
             </button>
@@ -93,17 +93,17 @@ export default function Hero() {
         {/* IMAGEN */}
         <div className="relative w-full max-w-xl mx-auto">
 
-          {/* BADGE IZQUIERDA */}
-          <div className="hidden md:block absolute -top-6 -left-6 bg-black/70 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
-            CERTIFICADO <br />
-            <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
-          </div>
+{/* BADGE IZQUIERDA */}
+<div className="hidden md:block absolute -top-12 -left-6 z-20 bg-black/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
+  CERTIFICADO <br />
+  <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
+</div>
 
-          {/* BADGE DERECHA */}
-          <div className="hidden md:block absolute -top-6 -right-6 bg-black/70 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
-            CERTIFICADO <br />
-            <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
-          </div>
+{/* BADGE DERECHA */}
+<div className="hidden md:block absolute -top-12 -right-6 z-20 bg-black/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
+  CERTIFICADO <br />
+  <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
+</div>
 
           {/* IMAGEN CON PARALLAX */}
           <img
