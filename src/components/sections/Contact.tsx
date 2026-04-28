@@ -117,7 +117,7 @@ ${payload.mensaje}`;
         {/* FORM */}
         <form
           onSubmit={handleSubmit}
-          className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md"
+          className="p-8 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md"
         >
 
           <div className="grid md:grid-cols-2 gap-4">

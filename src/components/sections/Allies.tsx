@@ -53,7 +53,7 @@ export default function Allies() {
           {loopLogos.map((logo, i) => (
             <div
               key={i}
-              className="flex items-center justify-center min-w-[160px] h-24 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md group transition-all duration-500 hover:border-cyan-400/40 hover:shadow-[0_10px_40px_rgba(0,0,0,0.6)]"
+              className="flex items-center justify-center min-w-[160px] h-24 rounded-xl border border-white/10 bg-white/10 backdrop-blur-md group transition-all duration-500 hover:border-cyan-400/40 hover:shadow-[0_10px_40px_rgba(0,0,0,0.6)]"
             >
 
               <img

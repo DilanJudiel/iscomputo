@@ -99,7 +99,7 @@ export default function Products() {
                   ease: "easeOut",
                 }}
                 viewport={{ once: true }}
-                className="group p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:-translate-y-2 hover:shadow-[0_15px_50px_rgba(0,0,0,0.5)]"
+                className="group p-6 rounded-2xl 10 border border-white/10 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:-translate-y-2 hover:shadow-[0_15px_50px_rgba(0,0,0,0.5)]"
               >
 
                 {/* ICON */}

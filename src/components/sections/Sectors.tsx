@@ -38,7 +38,7 @@ export default function Sectors() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="p-6 md:p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md hover:border-cyan-400/30 transition-all duration-300 hover:-translate-y-1"
+            className="p-6 md:p-8 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md hover:border-cyan-400/30 transition-all duration-300 hover:-translate-y-1"
           >
             <div className="flex items-center gap-4 mb-6">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center shadow-md">
@@ -76,7 +76,7 @@ export default function Sectors() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.5, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="p-6 md:p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md hover:border-cyan-400/30 transition-all duration-300 hover:-translate-y-1"
+            className="p-6 md:p-8 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md hover:border-cyan-400/30 transition-all duration-300 hover:-translate-y-1"
           >
             <div className="flex items-center gap-4 mb-6">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center shadow-md">
