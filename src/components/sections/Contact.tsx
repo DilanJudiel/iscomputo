@@ -64,7 +64,7 @@ ${payload.mensaje}`;
             </span>
           </h2>
 
-          <p className="text-gray-400 mt-4 max-w-md">
+          <p className="text-gray-300 mt-4 max-w-md">
             Cuéntanos qué necesitas. Recibirás una propuesta personalizada en menos de 24 horas hábiles.
           </p>
 
@@ -76,7 +76,7 @@ ${payload.mensaje}`;
                 <Mail className="text-black" />
               </div>
               <div>
-                <p className="text-xs text-gray-400">CORREO</p>
+                <p className="text-xs text-gray-300">CORREO</p>
                 <p className="font-semibold">informes@iscomputo.net</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ ${payload.mensaje}`;
                 <Phone className="text-black" />
               </div>
               <div>
-                <p className="text-xs text-gray-400">TELÉFONO</p>
+                <p className="text-xs text-gray-300">TELÉFONO</p>
                 <p className="font-semibold">+52 55 1549 4430 / 55 2589 3981</p>
               </div>
             </div>
@@ -96,7 +96,7 @@ ${payload.mensaje}`;
                 <Phone className="text-black" />
               </div>
               <div>
-                <p className="text-xs text-gray-400">SOPORTE</p>
+                <p className="text-xs text-gray-300">SOPORTE</p>
                 <p className="font-semibold">800 400 4430 / soporte@iscomputo.net</p>
               </div>
             </div>
@@ -106,7 +106,7 @@ ${payload.mensaje}`;
                 <MapPin className="text-black" />
               </div>
               <div>
-                <p className="text-xs text-gray-400">UBICACIÓN</p>
+                <p className="text-xs text-gray-300">UBICACIÓN</p>
                 <p className="font-semibold">Ciudad de México, México</p>
               </div>
             </div>

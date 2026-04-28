@@ -10,11 +10,11 @@ export default function Footer() {
             <img src="/logo.svg" className="h-20" />
             {/* <div>
               <p className="font-semibold">I&S Cómputo</p>
-              <p className="text-xs text-gray-400">Integración para TI</p>
+              <p className="text-xs text-gray-300">Integración para TI</p>
             </div> */}
           </div>
 
-          <p className="text-gray-400 text-sm max-w-sm">
+          <p className="text-gray-300 text-sm max-w-sm">
             Integradores de servicios y productos en informática desde 2009.
             Comprometidos con la transformación digital de México.
           </p>
@@ -23,7 +23,7 @@ export default function Footer() {
         {/* EMPRESA */}
         <div>
           <h4 className="font-semibold mb-4">EMPRESA</h4>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <ul className="space-y-2 text-gray-300 text-sm">
             <li><a href="#productos" className="hover:text-cyan-400">Productos</a></li>
             <li><a href="#sectores" className="hover:text-cyan-400">Sectores</a></li>
             <li><a href="#por-que-nosotros" className="hover:text-cyan-400">Por qué nosotros</a></li>
@@ -34,7 +34,7 @@ export default function Footer() {
         {/* VALORES */}
         <div>
           <h4 className="font-semibold mb-4">VALORES</h4>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <ul className="space-y-2 text-gray-300 text-sm">
             <li>Responsabilidad</li>
             <li>Honestidad</li>
             <li>Respeto</li>

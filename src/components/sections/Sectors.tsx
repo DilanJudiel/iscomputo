@@ -23,7 +23,7 @@ export default function Sectors() {
             </span>
           </h2>
 
-          <p className="text-gray-400 mt-4 max-w-2xl text-sm sm:text-base">
+          <p className="text-gray-300 mt-4 max-w-2xl text-sm sm:text-base">
             Conocemos los procesos, tiempos y requerimientos de cada sector.
             Te acompañamos desde la planeación hasta la implementación.
           </p>
@@ -49,7 +49,7 @@ export default function Sectors() {
                 <h3 className="text-lg md:text-xl font-semibold">
                   Sector Gobierno
                 </h3>
-                <p className="text-xs md:text-sm text-gray-400">
+                <p className="text-xs md:text-sm text-gray-300">
                   Federal · Estatal · Municipal
                 </p>
               </div>
@@ -87,7 +87,7 @@ export default function Sectors() {
                 <h3 className="text-lg md:text-xl font-semibold">
                   Iniciativa Privada
                 </h3>
-                <p className="text-xs md:text-sm text-gray-400">
+                <p className="text-xs md:text-sm text-gray-300">
                   PyME · Corporativo · Industria
                 </p>
               </div>

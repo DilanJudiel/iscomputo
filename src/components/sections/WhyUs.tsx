@@ -63,7 +63,7 @@ export default function WhyUs() {
             </span>
           </h2>
 
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
+          <p className="text-gray-300 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
             Desde 2009 ayudamos a organizaciones mexicanas a operar con tecnología confiable,
             escalable y al alcance de sus presupuestos.
           </p>
@@ -104,7 +104,7 @@ export default function WhyUs() {
                 </h3>
 
                 {/* DESC */}
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <p className="text-gray-300 text-sm leading-relaxed">
                   {item.desc}
                 </p>
 

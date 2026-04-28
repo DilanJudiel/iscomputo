@@ -77,7 +77,7 @@ export default function Products() {
             <span className="text-cyan-400">en un solo lugar</span>
           </h2>
 
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
+          <p className="text-gray-300 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
             Hardware e infraestructura de las marcas más reconocidas del mundo.
           </p>
         </div>
@@ -117,7 +117,7 @@ export default function Products() {
                 </h3>
 
                 {/* DESC */}
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <p className="text-gray-300 text-sm leading-relaxed">
                   {item.desc}
                 </p>
 

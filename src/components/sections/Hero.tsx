@@ -69,21 +69,21 @@ export default function Hero() {
           <div className="flex flex-wrap gap-8 mt-12 text-cyan-400 font-semibold">
             <div>
               <p className="text-2xl sm:text-3xl">15+</p>
-              <span className="text-gray-400 text-xs sm:text-sm">
+              <span className="text-gray-300 text-xs sm:text-sm">
                 Años de experiencia
               </span>
             </div>
 
             <div>
               <p className="text-2xl sm:text-3xl">500+</p>
-              <span className="text-gray-400 text-xs sm:text-sm">
+              <span className="text-gray-300 text-xs sm:text-sm">
                 Clientes atendidos
               </span>
             </div>
 
             <div>
               <p className="text-2xl sm:text-3xl">100%</p>
-              <span className="text-gray-400 text-xs sm:text-sm">
+              <span className="text-gray-300 text-xs sm:text-sm">
                 Soporte mexicano
               </span>
             </div>
