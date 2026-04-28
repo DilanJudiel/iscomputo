@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-datacenter.jpg";
+import heroImg from "@/assets/images/hero-datacenter.jpg";
 import { useEffect, useState } from "react";
 
 export default function Hero() {
