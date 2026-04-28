@@ -94,17 +94,16 @@ export default function Hero() {
           {/* Glow */}
           <div className="absolute inset-0 -z-10 blur-3xl bg-cyan-500/20"></div>
 
-          {/* Badge ISO */}
-          <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-2 rounded-lg border border-white/10 text-xs sm:text-sm">
-            CERTIFICADO <br />
-            <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
-          </div>
+{/* BADGES SUPERIORES */}
+<div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-sm shadow-lg">
+  CERTIFICADO <br />
+  <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
+</div>
 
-          {/* Badge uptime */}
-          <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md px-3 py-2 rounded-lg border border-white/10 text-xs sm:text-sm">
-            CERTIFICADO <br />
-            <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
-          </div>
+<div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-sm shadow-lg">
+  CERTIFICADO <br />
+  <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
+</div>
 
         </div>
 
