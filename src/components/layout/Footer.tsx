@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-white/10 mt-20">
+    <footer className="w-full border-t border-white/20 mt-20">
 
       <div className="max-w-7xl mx-auto px-6 md:px-16 py-16 grid md:grid-cols-3 gap-12">
 
@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       {/* COPYRIGHT */}
-      <div className="border-t border-white/10 py-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center px-6 md:px-16">
+      <div className="border-t border-white/20 py-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center px-6 md:px-16">
 
         <p>© 2026 I&S Cómputo. Todos los derechos reservados.</p>
 

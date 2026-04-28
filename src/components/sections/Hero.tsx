@@ -30,7 +30,7 @@ export default function Hero() {
 
         {/* TEXTO */}
         <div>
-          <span className="text-xs sm:text-sm bg-white/10 px-4 py-1 rounded-full backdrop-blur-md border border-white/10">
+          <span className="text-xs sm:text-sm bg-white/10 px-4 py-1 rounded-full backdrop-blur-md border border-white/20">
             ✨ Más de 17 años transformando empresas en México
           </span>
 
@@ -94,13 +94,13 @@ export default function Hero() {
         <div className="relative w-full max-w-xl mx-auto">
 
 {/* BADGE IZQUIERDA */}
-<div className="hidden md:block absolute -top-12 -left-6 z-20 bg-black/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
+<div className="hidden md:block absolute -top-12 -left-6 z-20 bg-black/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/20 text-sm shadow-xl">
   CERTIFICADO <br />
   <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
 </div>
 
 {/* BADGE DERECHA */}
-<div className="hidden md:block absolute -top-12 -right-6 z-20 bg-black/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
+<div className="hidden md:block absolute -top-12 -right-6 z-20 bg-black/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/20 text-sm shadow-xl">
   CERTIFICADO <br />
   <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
 </div>
@@ -109,7 +109,7 @@ export default function Hero() {
           <img
             src={heroImg}
             style={{ transform: `translateY(${offsetY * 0.05}px)` }}
-            className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.8)] transition-transform duration-75"
+            className="rounded-2xl w-full object-cover border border-white/20 shadow-[0_30px_100px_rgba(0,0,0,0.8)] transition-transform duration-75"
           />
 
           {/* GLOW SUAVE */}

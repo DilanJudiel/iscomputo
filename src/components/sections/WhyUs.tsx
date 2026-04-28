@@ -52,7 +52,7 @@ export default function WhyUs() {
         {/* HEADER */}
         <div className="text-center mb-12 md:mb-16">
 
-          <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/10 backdrop-blur-md">
+          <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md">
             POR QUÉ ELEGIRNOS
           </span>
 
@@ -86,7 +86,7 @@ export default function WhyUs() {
                   ease: "easeOut",
                 }}
                 viewport={{ once: true }}
-                className="group p-6 rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-white/0 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:-translate-y-2 hover:shadow-[0_15px_60px_rgba(0,0,0,0.5)]"
+                className="group p-6 rounded-2xl border border-white/20 bg-gradient-to-br from-white/5 to-white/0 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:-translate-y-2 hover:shadow-[0_15px_60px_rgba(0,0,0,0.5)]"
               >
 
                 {/* ICON */}

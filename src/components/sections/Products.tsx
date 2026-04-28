@@ -68,7 +68,7 @@ export default function Products() {
         {/* HEADER */}
         <div className="text-center mb-12 md:mb-16">
 
-          <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/10 backdrop-blur-md">
+          <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md">
             CATÁLOGO
           </span>
 
@@ -99,7 +99,7 @@ export default function Products() {
                   ease: "easeOut",
                 }}
                 viewport={{ once: true }}
-                className="group p-6 rounded-2xl 10 border border-white/10 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:-translate-y-2 hover:shadow-[0_15px_50px_rgba(0,0,0,0.5)]"
+                className="group p-6 rounded-2xl 10 border border-white/20 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/40 hover:-translate-y-2 hover:shadow-[0_15px_50px_rgba(0,0,0,0.5)]"
               >
 
                 {/* ICON */}

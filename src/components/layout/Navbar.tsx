@@ -25,7 +25,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#020617]/80 backdrop-blur-lg border-b border-white/10"
+          ? "bg-[#020617]/80 backdrop-blur-lg border-b border-white/20"
           : "bg-transparent"
       }`}
     >
@@ -69,7 +69,7 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       {open && (
-        <div className="md:hidden bg-[#020617] border-t border-white/10 px-6 py-6 flex flex-col gap-4 text-gray-300">
+        <div className="md:hidden bg-[#020617] border-t border-white/20 px-6 py-6 flex flex-col gap-4 text-gray-300">
           <button onClick={() => goTo("productos")}>Productos</button>
           <button onClick={() => goTo("sectores")}>Sectores</button>
           <button onClick={() => goTo("por-que-nosotros")}>Por qué nosotros</button>

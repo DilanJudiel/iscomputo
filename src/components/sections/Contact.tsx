@@ -53,7 +53,7 @@ ${payload.mensaje}`;
 
         {/* IZQUIERDA */}
         <div>
-          <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/10 backdrop-blur-md">
+          <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md">
             CONTACTO
           </span>
 
@@ -117,7 +117,7 @@ ${payload.mensaje}`;
         {/* FORM */}
         <form
           onSubmit={handleSubmit}
-          className="p-8 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-md"
+          className="p-8 rounded-2xl bg-white/10 border border-white/20 backdrop-blur-md"
         >
 
           <div className="grid md:grid-cols-2 gap-4">
