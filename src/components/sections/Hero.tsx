@@ -107,6 +107,10 @@ export default function Hero() {
   <div className="absolute inset-0 -z-10 blur-3xl bg-cyan-500/20"></div>
 
 </div>
+<div className="absolute inset-0 -z-10">
+  <div className="absolute top-0 left-0 w-72 h-72 bg-cyan-500/20 blur-3xl animate-pulse"></div>
+  <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/20 blur-3xl animate-pulse"></div>
+</div>
 
       </div>
     </section>
