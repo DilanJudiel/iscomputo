@@ -83,29 +83,30 @@ export default function Hero() {
         </div>
 
         {/* IMAGEN */}
-        <div className="relative w-full max-w-xl mx-auto">
+<div className="relative w-full max-w-xl mx-auto">
 
-          <img
-            src={heroImg}
-            className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_20px_80px_rgba(0,0,0,0.7)]"
-            alt="Infraestructura TI"
-          />
+  {/* BADGE IZQUIERDA (FUERA) */}
+  <div className="absolute -top-6 -left-6 bg-black/70 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
+    CERTIFICADO <br />
+    <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
+  </div>
 
-          {/* Glow */}
-          <div className="absolute inset-0 -z-10 blur-3xl bg-cyan-500/20"></div>
+  {/* BADGE DERECHA (FUERA) */}
+  <div className="absolute -top-6 -right-6 bg-black/70 backdrop-blur-md px-4 py-2 rounded-xl border border-white/10 text-sm shadow-xl">
+    CERTIFICADO <br />
+    <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
+  </div>
 
-{/* BADGES SUPERIORES */}
-<div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-sm shadow-lg">
-  CERTIFICADO <br />
-  <span className="text-cyan-400 font-semibold">ISO/IEC 27001</span>
+  {/* IMAGEN */}
+  <img
+    src={heroImg}
+    className="rounded-2xl w-full object-cover border border-white/10 shadow-[0_20px_80px_rgba(0,0,0,0.7)]"
+  />
+
+  {/* GLOW */}
+  <div className="absolute inset-0 -z-10 blur-3xl bg-cyan-500/20"></div>
+
 </div>
-
-<div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10 text-sm shadow-lg">
-  CERTIFICADO <br />
-  <span className="text-cyan-400 font-semibold">ISO/IEC 20000-1</span>
-</div>
-
-        </div>
 
       </div>
     </section>
