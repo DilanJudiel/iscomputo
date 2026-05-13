@@ -16,7 +16,6 @@ import lexmark from "../assets/logos/lexmark.svg";
 import samsung from "../assets/logos/samsung.svg";
 import huawei from "../assets/logos/huawei.svg";
 
-// LOOP
 const logos = [
   { src: hp, name: "HP" },
   { src: lenovo, name: "Lenovo" },
@@ -34,6 +33,9 @@ const logos = [
   { src: samsung, name: "Samsung" },
   { src: huawei, name: "Huawei" },
 ];
+
+// LOOP INFINITO
+const loopLogos = [...logos, ...logos];
 
 export default function Allies() {
   return (
@@ -68,13 +70,13 @@ export default function Allies() {
           className="flex gap-8 w-max px-8"
           animate={{ x: ["0%", "-50%"] }}
           transition={{
-            duration: 28,
+            duration: 35,
             repeat: Infinity,
             ease: "linear",
           }}
         >
 
-          {logos.map((logo, i) => (
+          {loopLogos.map((logo, i) => (
             <div
               key={i}
               className="
@@ -100,25 +102,30 @@ export default function Allies() {
               <img
                 src={logo.src}
                 alt={logo.name}
-className={`
-  object-contain
-  opacity-90
-  grayscale-[30%]
-  brightness-125
-  transition-all
-  duration-300
-  group-hover:opacity-100
-  group-hover:grayscale-0
-  group-hover:scale-105
-  group-hover:drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]
+                className={`
+                  object-contain
+                  opacity-90
+                  grayscale-[30%]
+                  brightness-125
+                  transition-all
+                  duration-300
+                  group-hover:opacity-100
+                  group-hover:grayscale-0
+                  group-hover:scale-105
+                  group-hover:drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]
 
-  ${
-    logo.name === "Fortinet" ||
-    logo.name === "Honeywell"
-      ? "h-10 max-w-[190px]"
-      : "h-14 max-w-[160px]"
-  }
-`}
+                  ${
+                    logo.name === "Fortinet" ||
+                    logo.name === "Honeywell" ||
+                    logo.name === "Microsoft"
+                      ? "h-9 max-w-[180px]"
+                      : logo.name === "Dell"
+                      ? "h-12 max-w-[120px]"
+                      : logo.name === "APC"
+                      ? "h-11 max-w-[150px]"
+                      : "h-14 max-w-[160px]"
+                  }
+                `}
               />
 
             </div>
