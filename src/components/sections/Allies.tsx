@@ -1,25 +1,39 @@
 import { motion } from "framer-motion";
 
-const logos = [
-  { src: "@/../src/assets/logos/hp.svg", name: "HP" },
-  { src: "@/../src/assets/logos/lenovo.svg", name: "Lenovo" },
-  { src: "@/../src/assets/logos/cisco.svg", name: "Cisco" },
-  { src: "@/../src/assets/logos/microsoft.svg", name: "Microsoft" },
-  { src: "@/../src/assets/logos/intel.svg", name: "Intel" },
-  { src: "@/../src/assets/logos/epson.svg", name: "Epson" },
-  { src: "@/../src/assets/logos/zebra.svg", name: "Zebra" },
-  { src: "@/../src/assets/logos/honeywell.svg", name: "Honeywell" },
-  { src: "@/../src/assets/logos/apc.svg", name: "APC" },
-  { src: "@/../src/assets/logos/aruba.svg", name: "Aruba" },
-  { src: "@/../src/assets/logos/fortinet.svg", name: "Fortinet" },
-  { src: "@/../src/assets/logos/dell.svg", name: "Dell" },
-  { src: "@/../src/assets/logos/lexmark.svg", name: "Lexmark" },
-  { src: "@/../src/assets/logos/samsung.svg", name: "Samsung" },
-  { src: "@/../src/assets/logos/huawei.svg", name: "Huawei" },
-];
+import hp from "../assets/logos/hp.svg";
+import lenovo from "../assets/logos/lenovo.svg";
+import cisco from "../assets/logos/cisco.svg";
+import microsoft from "../assets/logos/microsoft.svg";
+import intel from "../assets/logos/intel.svg";
+import epson from "../assets/logos/epson.svg";
+import zebra from "../assets/logos/zebra.svg";
+import honeywell from "../assets/logos/honeywell.svg";
+import apc from "../assets/logos/apc.svg";
+import aruba from "../assets/logos/aruba.svg";
+import fortinet from "../assets/logos/fortinet.svg";
+import dell from "../assets/logos/dell.svg";
+import lexmark from "../assets/logos/lexmark.svg";
+import samsung from "../assets/logos/samsung.svg";
+import huawei from "../assets/logos/huawei.svg";
 
 // LOOP
-const loopLogos = [...logos, ...logos];
+const logos = [
+  { src: hp, name: "HP" },
+  { src: lenovo, name: "Lenovo" },
+  { src: cisco, name: "Cisco" },
+  { src: microsoft, name: "Microsoft" },
+  { src: intel, name: "Intel" },
+  { src: epson, name: "Epson" },
+  { src: zebra, name: "Zebra" },
+  { src: honeywell, name: "Honeywell" },
+  { src: apc, name: "APC" },
+  { src: aruba, name: "Aruba" },
+  { src: fortinet, name: "Fortinet" },
+  { src: dell, name: "Dell" },
+  { src: lexmark, name: "Lexmark" },
+  { src: samsung, name: "Samsung" },
+  { src: huawei, name: "Huawei" },
+];
 
 export default function Allies() {
   return (
@@ -60,7 +74,7 @@ export default function Allies() {
           }}
         >
 
-          {loopLogos.map((logo, i) => (
+          {logos.map((logo, i) => (
             <div
               key={i}
               className="
