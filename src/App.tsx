@@ -4,6 +4,7 @@ import Hero from "./components/sections/Hero";
 import Products from "./components/sections/Products";
 import Sectors from "./components/sections/Sectors";
 import WhyUs from "./components/sections/WhyUs";
+import Vision from "./components/sections/Vision";
 import Allies from "./components/sections/Allies";
 import Contact from "./components/sections/Contact";
 import WhatsAppButton from "./components/ui/WhatsAppButton";
@@ -23,6 +24,7 @@ function App() {
       <Products />
       <Sectors />
       <WhyUs />
+      <Vision />
       <Allies />
       <Contact />
       <Footer />

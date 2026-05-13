@@ -35,7 +35,7 @@ export default function Navbar() {
 <div className="flex items-center gap-3 group cursor-pointer ">
   
   <img
-    src="/logo.svg"
+    src="/logo.png"
     alt="I&S Cómputo"
     className="h-12 md:h-14 w-auto object-contain transition-all duration-300 hover:scale-105 group-hover:drop-shadow-[0_0_15px_rgba(34,211,238,0.8)]"
   />
