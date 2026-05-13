@@ -1,40 +1,49 @@
 import { motion } from "framer-motion";
 
 const logos = [
-  "https://cdn.simpleicons.org/hp",
-  "https://cdn.simpleicons.org/dell",
-  "https://cdn.simpleicons.org/lenovo",
-  "https://cdn.simpleicons.org/cisco",
-  "https://cdn.simpleicons.org/microsoft",
-  "https://cdn.simpleicons.org/intel",
-  "https://cdn.simpleicons.org/epson",
-  "https://cdn.simpleicons.org/zebra",
-  "https://cdn.simpleicons.org/honeywell",
-  "https://cdn.simpleicons.org/apc",
-  "https://cdn.simpleicons.org/aruba",
-  "https://cdn.simpleicons.org/fortinet",
+  { src: "@/../src/assets/logos/hp.svg", name: "HP" },
+  { src: "@/../src/assets/logos/lenovo.svg", name: "Lenovo" },
+  { src: "@/../src/assets/logos/cisco.svg", name: "Cisco" },
+  { src: "@/../src/assets/logos/microsoft.svg", name: "Microsoft" },
+  { src: "@/../src/assets/logos/intel.svg", name: "Intel" },
+  { src: "@/../src/assets/logos/epson.svg", name: "Epson" },
+  { src: "@/../src/assets/logos/zebra.svg", name: "Zebra" },
+  { src: "@/../src/assets/logos/honeywell.svg", name: "Honeywell" },
+  { src: "@/../src/assets/logos/apc.svg", name: "APC" },
+  { src: "@/../src/assets/logos/aruba.svg", name: "Aruba" },
+  { src: "@/../src/assets/logos/fortinet.svg", name: "Fortinet" },
+  { src: "@/../src/assets/logos/dell.svg", name: "Dell" },
+  { src: "@/../src/assets/logos/lexmark.svg", name: "Lexmark" },
+  { src: "@/../src/assets/logos/samsung.svg", name: "Samsung" },
+  { src: "@/../src/assets/logos/huawei.svg", name: "Huawei" },
 ];
 
-// duplicamos para loop infinito
+// LOOP
 const loopLogos = [...logos, ...logos];
 
 export default function Allies() {
   return (
-    <section id="aliados" className="w-full py-28 overflow-hidden">
-
+    <section
+      id="aliados"
+      className="w-full py-28 overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto px-6 md:px-16">
 
         {/* HEADER */}
         <div className="text-center mb-16">
+
           <span className="text-xs px-4 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md">
             NUESTROS ALIADOS
           </span>
 
           <h2 className="text-3xl md:text-5xl font-bold mt-6">
             Trabajamos con las{" "}
-            <span className="text-cyan-400">marcas líderes</span>{" "}
+            <span className="text-cyan-400">
+              marcas líderes
+            </span>{" "}
             del mundo
           </h2>
+
         </div>
       </div>
 
@@ -42,40 +51,72 @@ export default function Allies() {
       <div className="relative w-full overflow-hidden">
 
         <motion.div
-          className="flex gap-10 w-max px-10"
+          className="flex gap-8 w-max px-8"
           animate={{ x: ["0%", "-50%"] }}
           transition={{
-            duration: 25,
+            duration: 28,
             repeat: Infinity,
             ease: "linear",
           }}
         >
+
           {loopLogos.map((logo, i) => (
             <div
               key={i}
-              className="flex items-center justify-center min-w-[160px] h-24 rounded-xl border border-white/20 bg-white/10 backdrop-blur-md group transition-all duration-500 hover:border-cyan-400/40 hover:shadow-[0_10px_40px_rgba(0,0,0,0.6)]"
+              className="
+                min-w-[220px]
+                h-28
+                flex
+                items-center
+                justify-center
+                rounded-2xl
+                border
+                border-white/10
+                bg-white/5
+                backdrop-blur-md
+                group
+                transition-all
+                duration-500
+                hover:border-cyan-400/40
+                hover:bg-white/10
+                hover:shadow-[0_10px_40px_rgba(0,0,0,0.6)]
+              "
             >
 
               <img
-                src={logo}
-className="
-  h-20
+                src={logo.src}
+                alt={logo.name}
+className={`
   object-contain
-  opacity-60
-  transition-all duration-300
+  opacity-90
+  grayscale-[30%]
+  brightness-125
+  transition-all
+  duration-300
   group-hover:opacity-100
-  filter brightness-0 invert
-  group-hover:drop-shadow-[0_0_10px_rgba(34,211,238,0.6)]
-"
+  group-hover:grayscale-0
+  group-hover:scale-105
+  group-hover:drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]
+
+  ${
+    logo.name === "Fortinet" ||
+    logo.name === "Honeywell"
+      ? "h-10 max-w-[190px]"
+      : "h-14 max-w-[160px]"
+  }
+`}
               />
 
             </div>
           ))}
+
         </motion.div>
 
-        {/* FADE LADOS (PRO) */}
-        <div className="pointer-events-none absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-[#020617] to-transparent"></div>
-        <div className="pointer-events-none absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-[#020617] to-transparent"></div>
+        {/* FADE IZQUIERDA */}
+        <div className="pointer-events-none absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-[#060816] to-transparent"></div>
+
+        {/* FADE DERECHA */}
+        <div className="pointer-events-none absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-[#060816] to-transparent"></div>
 
       </div>
     </section>
