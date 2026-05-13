@@ -120,7 +120,7 @@ export default function Footer() {
             <p>
               Desarrollado por{" "}
               <span className="text-cyan-400 font-semibold">
-                AiTechnology
+                AITechnology
               </span>
             </p>
 
